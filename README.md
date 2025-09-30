@@ -2,7 +2,7 @@
 
 A tiny, friendly GitHub Pages site for first-time contributors to make their very first pull request. Add your name and GitHub link to a simple data file, open a PR, and see yourself appear on the live website.
 
-Live site: https://your-username.github.io/firstleaf
+See yourself: [https://your-username.github.io/firstleaf](https://rohit-554.github.io/FirstLeaf/)
 
 ## What is this?
 
