@@ -1,0 +1,11 @@
+{
+  "name": "firstleaf",
+  "version": "1.0.0",
+  "private": true,
+  "description": "FirstLeaf: Beginner-friendly GitHub Pages repo to make your first pull request",
+  "license": "MIT",
+  "scripts": {
+    "validate": "node scripts/validate-contributors.js",
+    "start": "npx http-server -p 8080 -c-1 ."
+  }
+}

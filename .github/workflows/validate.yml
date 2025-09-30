@@ -1,0 +1,18 @@
+name: Validate contributors file
+
+on:
+  pull_request:
+    paths:
+      - 'data/contributors.ndjson'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Validate contributors.ndjson
+        run: node scripts/validate-contributors.js
