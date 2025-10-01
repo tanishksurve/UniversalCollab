@@ -89,3 +89,36 @@ Be kind, be patient, and be respectful. This is a beginner-friendly space.
 ## License
 
 MIT License. See `LICENSE`.
+
+## Thank you - Contributors
+
+Thank you to all the amazing contributors who have helped make this project better! 🎉
+
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/Rohit-554"><img src="https://avatars.githubusercontent.com/Rohit-554" width="80px;" alt="Rohit"/></a></td>
+    <td align="center"><a href="https://github.com/Rohit-554"><img src="https://avatars.githubusercontent.com/Jadu-554" width="80px;" alt="Jadu"/></a></td>
+    <td align="center"><a href="https://github.com/Simonmatharesh"><img src="https://avatars.githubusercontent.com/Simonmatharesh" width="80px;" alt="Simon"/></a></td>
+    <td align="center"><a href="https://github.com/anshukaushik4700/"><img src="https://avatars.githubusercontent.com/anshukaushik4700" width="80px;" alt="Anshu"/></a></td>
+    <td align="center"><a href="https://github.com/Shwetank-Maurya/"><img src="https://avatars.githubusercontent.com/Shwetank-Maurya" width="80px;" alt="Shwetank Maurya"/></a></td>
+    <td align="center"><a href="https://github.com/AdyHACK"><img src="https://avatars.githubusercontent.com/AdyHACK" width="80px;" alt="Aditya"/></a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Rohit-554"><sub><b>Rohit</b></sub></a></td>
+    <td align="center"><a href="https://github.com/Rohit-554"><sub><b>Jadu</b></sub></a></td>
+    <td align="center"><a href="https://github.com/Simonmatharesh"><sub><b>Simon</b></sub></a></td>
+    <td align="center"><a href="https://github.com/anshukaushik4700/"><sub><b>Anshu</b></sub></a></td>
+    <td align="center"><a href="https://github.com/Shwetank-Maurya/"><sub><b>Shwetank Maurya</b></sub></a></td>
+    <td align="center"><a href="https://github.com/AdyHACK"><sub><b>Aditya</b></sub></a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/anup2702"><img src="https://avatars.githubusercontent.com/anup2702" width="80px;" alt="Anup"/></a></td>
+    <td align="center"><a href="https://github.com/jatinagg1"><img src="https://avatars.githubusercontent.com/jatinagg1" width="80px;" alt="Jatin"/></a></td>
+    <td align="center"><a href="https://github.com/sarthakjalan05"><img src="https://avatars.githubusercontent.com/sarthakjalan05" width="80px;" alt="Sarthak"/></a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/anup2702"><sub><b>Anup</b></sub></a></td>
+    <td align="center"><a href="https://github.com/jatinagg1"><sub><b>Jatin</b></sub></a></td>
+    <td align="center"><a href="https://github.com/sarthakjalan05"><sub><b>Sarthak</b></sub></a></td>
+  </tr>
+</table>
