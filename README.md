@@ -75,8 +75,13 @@ Then visit http://localhost:8080 in your browser and click `index.html`.
 │   └── app.js           # Fetch and render contributors
 ├── data/
 │   └── contributors.ndjson  # One JSON object per line
+├── scripts/
+│   ├── validate-contributors.js      # Validates contributors data
+│   └── update-readme-contributors.js # Updates README contributors section
 └── README.md
 ```
+
+> **Note:** The contributors section at the bottom of this README is automatically updated by a GitHub Action whenever a PR is merged to the main branch.
 
 ## Code of Conduct
 
