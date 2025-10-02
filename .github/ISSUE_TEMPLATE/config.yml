@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 💬 Ask a Question
+    url: https://github.com/Rohit-554/FirstLeaf/discussions
+    about: Ask questions and discuss ideas with the community
+  - name: 📖 Documentation
+    url: https://github.com/Rohit-554/FirstLeaf/blob/master/README.md
+    about: Read the documentation to learn how to contribute
