@@ -7,6 +7,9 @@ A tiny, friendly GitHub Pages site for first-time contributors to make their ver
 
 See yourself: https://rohit-554.github.io/FirstLeaf/
 
+## Access Issues and start creating PR
+https://github.com/Rohit-554/FirstLeaf/tree/master/.github/ISSUE_TEMPLATE
+
 ## What is this?
 
 This repo powers a static site hosted on GitHub Pages. The page reads a newline-delimited JSON (NDJSON) file and renders a grid of contributors. Beginners only need to edit one line to add themselves.
