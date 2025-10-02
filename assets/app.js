@@ -45,12 +45,13 @@ async function fetchContributors() {
       })
       .filter(Boolean);
 
-    // Sort by date added (if present) or by name
     people.sort(
       (a, b) =>
         (b.addedAt || "").localeCompare(a.addedAt || "") ||
         (a.name || "").localeCompare(b.name || "")
     );
+
+    const contributorElements = [];
 
     elList.innerHTML = "";
     for (const p of people) {
@@ -84,28 +85,6 @@ async function fetchContributors() {
       username.className = "username";
       username.textContent = p.username ? `@${p.username}` : "";
 
-      // Add search functionality
-      const searchInput = document.getElementById("searchInput");
-      if (searchInput) {
-        searchInput.addEventListener("input", (e) => {
-          const searchTerm = e.target.value.toLowerCase();
-          const cards = elList.querySelectorAll("a");
-
-          cards.forEach((cardLink) => {
-            const card = cardLink.querySelector(".card");
-            const name = card.querySelector(".name").textContent.toLowerCase();
-            const username = card
-              .querySelector(".username")
-              .textContent.toLowerCase();
-
-            if (name.includes(searchTerm) || username.includes(searchTerm)) {
-              cardLink.style.display = "";
-            } else {
-              cardLink.style.display = "none";
-            }
-          });
-        });
-      }
       info.appendChild(name);
       info.appendChild(username);
 
@@ -121,6 +100,29 @@ async function fetchContributors() {
 
       a.appendChild(card);
       elList.appendChild(a);
+
+      // Cache element and searchable data
+      contributorElements.push({
+        element: a,
+        name: (p.name || "").toLowerCase(),
+        username: (p.username || "").toLowerCase(),
+      });
+    }
+
+    // Set up search functionality once, outside the loop
+    const searchInput = document.getElementById("searchInput");
+    if (searchInput) {
+      searchInput.addEventListener("input", (e) => {
+        const searchTerm = e.target.value.toLowerCase();
+
+        contributorElements.forEach(({ element, name, username }) => {
+          if (name.includes(searchTerm) || username.includes(searchTerm)) {
+            element.style.display = "";
+          } else {
+            element.style.display = "none";
+          }
+        });
+      });
     }
 
     elCount.textContent = `${people.length} contributor${
