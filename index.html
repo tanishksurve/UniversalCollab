@@ -1,24 +1,39 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>FirstLeaf — First Pull Request Playground</title>
-    <meta name="description" content="A friendly repo for your first pull request. Add your name and GitHub link and see it live on the page!" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <title>FirstLeaf — First Pull Request Playground</title>
+    <meta
+      name="description"
+      content="A friendly repo for your first pull request. Add your name and GitHub link and see it live on the page!"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./assets/styles.css" />
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🩵</text></svg>">
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🩵</text></svg>"
+    />
   </head>
   <body>
     <header class="site-header">
       <div class="container">
-  <h1>FirstLeaf</h1>
-        <p class="tagline">Make your first pull request — add your name, get featured here.</p>
+        <h1>FirstLeaf</h1>
+        <p class="tagline">
+          Make your first pull request — add your name, get featured here.
+        </p>
         <nav class="actions">
-          <a class="btn" id="repoLink" target="_blank" rel="noopener">View Repo</a>
-          <a class="btn primary" id="howToContribute" href="#contribute">How to contribute</a>
+          <a class="btn" id="repoLink" target="_blank" rel="noopener"
+            >View Repo</a
+          >
+          <a class="btn primary" id="howToContribute" href="#contribute"
+            >How to contribute</a
+          >
         </nav>
       </div>
     </header>
@@ -27,21 +42,45 @@
       <section aria-labelledby="contributors-title">
         <div class="list-header">
           <h2 id="contributors-title">Contributors</h2>
-          <span id="count" class="count" aria-live="polite" aria-atomic="true"></span>
+          <span
+            id="count"
+            class="count"
+            aria-live="polite"
+            aria-atomic="true"
+          ></span>
+          <div class="search-container">
+            <input
+              type="text"
+              id="searchInput"
+              placeholder="Search contributors by name or username..."
+              aria-label="Search contributors"
+            />
+          </div>
         </div>
         <div id="contributors" class="cards" role="list"></div>
         <div id="loading" class="loading">Loading contributors…</div>
-        <div id="error" class="error" hidden>Could not load contributors. Please refresh and try again.</div>
+        <div id="error" class="error" hidden>
+          Could not load contributors. Please refresh and try again.
+        </div>
       </section>
 
       <section aria-labelledby="contribute" class="howto" id="contribute">
         <h2 id="contribute">How to contribute</h2>
         <ol>
           <li>Fork the repository to your own GitHub account.</li>
-          <li>Create a new branch for your change (for example, <code>add/your-name</code>).</li>
-          <li>Edit the file <code>data/contributors.ndjson</code> and add one new line following the example shown in that file.</li>
+          <li>
+            Create a new branch for your change (for example,
+            <code>add/your-name</code>).
+          </li>
+          <li>
+            Edit the file <code>data/contributors.ndjson</code> and add one new
+            line following the example shown in that file.
+          </li>
           <li>Commit your change and open a Pull Request.</li>
-          <li>Once merged, your profile will appear here automatically in a minute or two.</li>
+          <li>
+            Once merged, your profile will appear here automatically in a minute
+            or two.
+          </li>
         </ol>
         <p>Full instructions are in the README if you need more detail.</p>
       </section>
@@ -49,9 +88,7 @@
 
     <footer class="site-footer">
       <div class="container">
-        <p>
-          Built with 💙 for first‑time contributors by Jadu
-        </p>
+        <p>Built with 💙 for first‑time contributors by Jadu</p>
       </div>
     </footer>
 
