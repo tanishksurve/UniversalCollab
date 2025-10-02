@@ -123,10 +123,12 @@ Thank you to all the amazing contributors who have helped make this project bett
     <td align="center"><a href="https://github.com/anup2702"><img src="https://avatars.githubusercontent.com/anup2702" width="80px;" alt="Anup"/></a></td>
     <td align="center"><a href="https://github.com/jatinagg1"><img src="https://avatars.githubusercontent.com/jatinagg1" width="80px;" alt="Jatin"/></a></td>
     <td align="center"><a href="https://github.com/sarthakjalan05"><img src="https://avatars.githubusercontent.com/sarthakjalan05" width="80px;" alt="Sarthak"/></a></td>
+    <td align="center"><a href="https://github.com/ritwik1709"><img src="https://avatars.githubusercontent.com/ritwikt17" width="80px;" alt="Ritwik"/></a></td>
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/anup2702"><sub><b>Anup</b></sub></a></td>
     <td align="center"><a href="https://github.com/jatinagg1"><sub><b>Jatin</b></sub></a></td>
     <td align="center"><a href="https://github.com/sarthakjalan05"><sub><b>Sarthak</b></sub></a></td>
+    <td align="center"><a href="https://github.com/ritwik1709"><sub><b>Ritwik</b></sub></a></td>
   </tr>
 </table>
